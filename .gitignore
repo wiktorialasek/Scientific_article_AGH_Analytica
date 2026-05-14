@@ -1,0 +1,23 @@
+# Klucz HMAC - nigdy nie commituj
+.anon_hmac_key
+
+# Cache HTML scraperze
+cache/
+
+# Środowisko wirtualne
+.venv/
+
+# Logi
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.claude/
+
+# Dane wyjściowe (duże pliki CSV) - opcjonalnie odkomentuj jeśli chcesz je wykluczyć
+# data/
